@@ -1,0 +1,58 @@
+*{
+    text-align: center;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 30px;
+    padding: 0 25px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 39px;
+}
+
+.polaroid{
+    flex: 20%;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+img{
+    height: auto;
+    width: 100%;
+}
+
+.caption{
+    padding: 10px;
+    text-align: left;
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+@media (max-width: 700px){
+    .polaroid{
+        flex: 45%;
+    }
+    h1{
+        font-size: 35px;
+    }
+    body{
+        padding: 0 10px;
+    }
+    .caption{
+        padding: 10px;
+        font-size: 15px;
+        font-weight: 700;
+        margin-top: 3px;
+    }
+} 
+
+@media (max-width: 500px){
+    .polaroid{
+        flex: 100%;
+    }
+} 
