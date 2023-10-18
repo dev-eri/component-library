@@ -12,6 +12,7 @@ body {
 
 img {
     width: 2rem;
+    display: block;
 }
 
 form {
@@ -25,8 +26,13 @@ form {
     padding: 1rem;
 }
 
+form img {
+    
+}
+
 p:first-of-type {
     font-size: x-large;
+    text-align: center;
 }
 
 p:nth-of-type(2) {
@@ -62,4 +68,54 @@ p:last-of-type {
     margin-left: -0.5rem;
     text-decoration: none;
     font-weight: bold;
+    color: black;
+}
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+
+}
+
+/* For Tablet View */
+@media screen and (min-width: 768px) 
+    and (max-width: 1024px) {
+        form {
+            width: 300px;
+            height: 350;
+        }
+    
+        p:first-of-type {
+            font-size: large;
+        }
+        
+        p {
+            font-size: medium;
+        }
+        
+        p:last-of-type {
+            padding-left: 18px;
+            font-size: small;
+        }
+}
+ 
+/* For Mobile View */
+@media screen
+    and (max-width: 640px) {
+    form {
+        width: 250px;
+        height: 350;
+    }
+
+    p:first-of-type {
+        font-size: medium;
+    }
+    
+    p {
+        font-size: small;
+    }
+    
+    p:last-of-type {
+        padding-left: 18px;
+        font-size: x-small;
+    }
 }
