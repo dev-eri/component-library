@@ -1,0 +1,38 @@
+body {
+    margin: 2rem;
+    overflow-y: hidden;
+}
+
+header {
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 0.25rem;
+    font-size: larger;
+}
+
+.container img {
+    width: 8rem;
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 8rem);
+    justify-content: center;
+}
+
+.image-container {
+    text-align: center;
+}
+
+#expandedImg {
+    width: 75%;
+    margin: 1rem;
+}

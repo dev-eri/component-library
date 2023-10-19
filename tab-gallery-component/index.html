@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tab Gallery</title>
+</head>
+<body>
+    <header>TAB Gallery</header>
+    <main class="container">
+        <img src="https://images.pexels.com/photos/3264706/pexels-photo-3264706.jpeg?auto=compress&cs=tinysrgb&w=600" 
+        alt="1" onclick="myFunctions(this);">
+        <img src="https://images.pexels.com/photos/2220313/pexels-photo-2220313.jpeg?auto=compress&cs=tinysrgb&w=600" 
+        alt="2" onclick="myFunctions(this);">
+        <img src="https://images.pexels.com/photos/792811/pexels-photo-792811.jpeg?auto=compress&cs=tinysrgb&w=600" 
+        alt="3" onclick="myFunctions(this);">
+        <img src="https://images.pexels.com/photos/13970073/pexels-photo-13970073.jpeg?auto=compress&cs=tinysrgb&w=600" 
+        alt="4" onclick="myFunctions(this);">
+    </main>
+    <article class="image-container">
+        <!--expanded img-->
+        <img id="expandedImg">
+        <!--image text-->
+        <div class="imgText"></div>
+    </article>
+
+    <script src="/component-library/tab-gallery-component/function.js"></script>
+</body>
+</html>
