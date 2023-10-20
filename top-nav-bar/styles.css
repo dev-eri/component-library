@@ -1,0 +1,60 @@
+*{
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+    display: flex;
+    background-color: rgb(169, 240, 240);
+}
+
+.container{
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px 35px;
+    width: 500px;
+    height: 600px;
+    margin-top: 20px;
+    margin-bottom: 17px;
+}
+h1{
+    margin: 20px 10px 0 0;
+}
+
+input[class='name']{
+    width: 49.5%;
+}
+
+input{
+    padding: 13px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    width: 100%;
+}
+
+select{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 32.5%;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.7em 0;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+input[type="button"]{
+    margin-top: 20px;
+    padding: 9px;
+    width: 70%;
+    background-color: rgb(47, 141, 52);
+    color: azure;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 10px;
+}
