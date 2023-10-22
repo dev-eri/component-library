@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 15rem;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #26b170;
+    color: azure;
+}
+nav h2 {
+    margin-left: 1rem;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 1rem;
+    margin-right: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: azure;
+    font-size: small;
+    font-weight: bolder;
+}
+
+select {
+    border: none;
+    background-color: transparent;
+    color: azure;
+}
+
+option {
+    color: black;
+}
+
+main {
+    margin: 3rem 1rem;
+}
+
+h1, h3, h4, form {
+    margin: 2rem 4rem;
+}
+
+h1 {
+    font-size: 3rem;
+    width: 35%;
+}
+
+h3, h4 {
+    font-size: smaller;
+    width: 38%;
+}
+
+.lead-capture-form {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    gap: 0.5rem;
+}
+
+input {
+    height: 2rem;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 9px 30px 9px 25px;
+}
+
+input[type=text] {
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-person' viewBox='0 0 16 16'%3E%3Cpath d='M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z'%3E%3C/path%3E%3C/svg%3E") no-repeat 5px center;
+}
+
+input[type=email] {
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-envelope' viewBox='0 0 16 16'%3E%3Cpath d='M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z'%3E%3C/path%3E%3C/svg%3E") no-repeat 5px center;
+
+}
+
+input[type=button] {
+    background-color: #26b170;
+    color: white;
+    font-size: 1em;
+    font-weight: bolder;
+    height: 3rem;
+}
+
+img {
+    position: absolute;
+    top: 8rem;
+    right: 5rem;
+    width: 35rem;
+}
