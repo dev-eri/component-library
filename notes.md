@@ -16,11 +16,11 @@
 - **Navigation Bar**
     - [x]  Top NavBar
     - [ ]  Top NavBar with ICONS
-    - [ ]  Side NavBar
+    - [x]  Side NavBar
     - [ ]  Side NavBar with ICONS <!--or just icons-->
 - **Forms**
     - [x]  Sign In/Login Form
-    - [ ]  Register Form
+    - [x]  Register Form
 - **Tables**
     - [x]  Product List
     - [ ]  Comparison Table?
@@ -30,11 +30,14 @@
     - [ ]  Flexbox?
 - **Gallery**
     - [x]  Image Gallery (polaroid style)
-    - [ ]  Tab Gallery (ref: https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp)
+    - [x]  Tab Gallery (ref: https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp)
 - **Games (Simple Games e.g tic tac toe) (Hindi pa sure)**
     - [ ]  2048
     - [ ]  Tic Tac Toe
 
 - **Landing Page**
+*for different fields or enterprise*
+    - [] 
+    - [] s
 - **Footer**
 - **Lists**

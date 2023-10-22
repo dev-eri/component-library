@@ -1,37 +1,67 @@
 body {
     margin: 2rem;
+    overflow: hidden;
 }
 
 header {
+    position: relative;
     display: block;
     margin: 1rem auto;
     text-align: center;
     font-weight: bolder;
     letter-spacing: 0.25rem;
     font-size: larger;
+    z-index: 3;
 }
 
 .container img {
-    width: 8rem;
-    opacity: 0.5;
+    width: 15rem;
+    gap: 2;
+    filter: blur(4px);
 }
 
 img:hover {
-    opacity: 1;
+    filter: none;
+    cursor: pointer;
+}
+img:active {
+    transform: scaleX(120%);
+    position: relative;
+    z-index: 5;
+    filter: none;
     cursor: pointer;
 }
 
 .container{
     display: grid;
-    grid-template-columns: repeat(4, 8rem);
-    justify-content: center;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 5rem;
+}
+
+.sphere1, .sphere2 {
+    width: 120%;
+    height: 6rem;
+    border-radius: 75%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: -10%;
+    z-index: 1;
+}
+
+.sphere2 {
+    top: 38%;
 }
 
 .image-container {
+    position: relative;
     text-align: center;
+    margin: -2rem auto;
+    z-index: 2;
 }
 
 #expandedImg {
     width: 25%;
     margin: 1rem;
+    border-radius: 1rem;
 }
