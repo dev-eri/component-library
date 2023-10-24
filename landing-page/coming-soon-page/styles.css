@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    position: fixed; /* makes the navigation bar sticky*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10%;
+    /* background: #020e16; */
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+body{
+    background-image: url(https://media.istockphoto.com/id/1298401334/vector/touch-with-virtual-reality.jpg?s=612x612&w=0&k=20&c=qT-1P9-Jap_sanW0nKayYDjryc6j9BLviqkA7bv1fsY=);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    
+}
+
+main{
+    padding: 20px 50px;
+    color: aliceblue;
+
+}
+
+.container{
+    width: 70%;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 70px;
+}
+.signup{
+    margin-top: 30px;
+}
+input[type="button"]{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid white;
+    color: white;
+    width: 90px;
+}
+
+input[type="email"]{
+    padding: 10px;
+    width: 375px;
+}
