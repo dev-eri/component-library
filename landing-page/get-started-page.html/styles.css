@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    position: fixed; /* makes the navigation bar sticky*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10%;
+    /* background: #020e16; */
+    background-color: rgb(230, 238, 227);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    font-size: 17px;
+    color: rgb(0,0,0);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+body{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/60a36f655982af4e5b0e36ed/1de03b60-dcb2-4ac9-99c0-809879472339/shutterstock_1724611486.jpg);
+    background-repeat: no-repeat;
+    
+    /* background-attachment: fixed; */
+    background-size: cover;
+}
+
+main{
+    margin-top: 100px;
+    padding: 50px 50px;
+    color: aliceblue;
+
+}
+
+.container{
+    width: 55%;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+input[type="button"]{
+    padding: 10px;
+}
+h1{
+    font-size: 39px;
+}
