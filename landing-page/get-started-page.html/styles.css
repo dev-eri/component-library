@@ -34,8 +34,6 @@
 body{
     background-image: url(https://images.squarespace-cdn.com/content/v1/60a36f655982af4e5b0e36ed/1de03b60-dcb2-4ac9-99c0-809879472339/shutterstock_1724611486.jpg);
     background-repeat: no-repeat;
-    
-    /* background-attachment: fixed; */
     background-size: cover;
 }
 
@@ -54,9 +52,24 @@ main{
     margin-top: 100px;
 }
 
-input[type="button"]{
-    padding: 10px;
-}
 h1{
     font-size: 39px;
+}
+
+input[type="button"]{
+    padding: 10px;
+    width: 135px;
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+    border-radius: 10px;
+}
+
+input.primary{
+    width: 90px;
+    background-color: transparent;
+    border-color: #005B41;
+    color: #005B41;
+    font-weight: 600;
+    border-radius: 10px;
 }
