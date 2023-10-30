@@ -1,12 +1,13 @@
 *{
     box-sizing: border-box;
+    border: 1px solid black;
 }
 
 body{
     background-color: rgba(253, 253, 253, 0.575);
     margin: 25px;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 130px;
 }
 
 .header{
@@ -14,26 +15,17 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
-    /* background: #020e16; */
-    background-color: rgb(245, 247, 247);
+    padding: 20px 7%;
+    background-color: rgb(22, 20, 20);
     display: flex;
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-}
-.logo{
-    position: relative;
-    font-size: 25px;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-weight: 600;
 }
 
 .navbar a{
     font-size: 17px;
-    color: rgb(0,0,0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 500;
     margin-left: 30px;
@@ -50,21 +42,23 @@ a:hover{
     flex-direction: row;
     margin: 0 auto;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .container{
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     flex-wrap: nowrap;
-    /* border: 1px solid black; */
     width: 25%;
     border-radius: 10px;
     padding: 10px 20px;
     margin: 15px;
     padding-bottom: 20px;
 }
-.check{
-    color: black;
+
+h1.head{
+    margin-top: 90px;
+    font-size: 70px;
 }
 
 .details{
@@ -86,14 +80,11 @@ li{
 }
 
 input[type="button"]{
-    width: 200px;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-input[type="button"]{
     border: 0;
     background-color: green;
     color: white;
     font-weight: 700;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
