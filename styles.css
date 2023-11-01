@@ -35,10 +35,6 @@ img {
     justify-content: end;
 }
 
-.navlinks li {
-    float: right;
-}
-
 .navlinks li:first-of-type {
     border-right: 1px solid #303030;
 }
